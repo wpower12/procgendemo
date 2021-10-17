@@ -1,0 +1,25 @@
+{
+  "name": "procgendemo",
+  "version": "1.0.0",
+  "description": "Demo app for procedural level generation with Phaser3.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wpower3",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.58.2",
+    "webpack-cli": "^4.9.0"
+  },
+  "dependencies": {
+    "@koreez/phaser3-isometric-plugin": "^0.2.1",
+    "phaser": "^3.55.2",
+    "seedrandom": "^3.0.5",
+    "simplex-noise": "^3.0.0",
+    "tslib": "^2.3.1",
+    "webpack-dev-server": "^4.3.1"
+  }
+}
